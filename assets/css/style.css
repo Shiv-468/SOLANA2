@@ -50,7 +50,10 @@
 .deeper_card:hover .Deeper_Card_bottom_ellipse{
 opacity: 1 !important;
 }
+.source_section_background{
+    background: linear-gradient(180deg, #19161C 0%, #000000 100%);
 
+}
 
 
 
