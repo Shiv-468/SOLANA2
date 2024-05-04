@@ -16,7 +16,7 @@
     --font-size-9xl: 37px;
     --font-size-10xl:38px;
     --font-size-11xl: 39px;
-    --font-size-12xl: 94px;
+    --font-size-12xl: 55px;
     /* line-height*/
     --line-height-sm: 18px;
     --line-height-md: 18.72px;
@@ -30,7 +30,7 @@
     --line-height-7xl: 37.8px;
     --line-height-8xl: 40px;
     --line-height-9xl: 42px;
-    --line-height-10xl:96px;
+    --line-height-10xl:56px;
     /* background-colors */
     --bg-lightblack: #111111;
     --bg-light-black2: #1A1A1A;
@@ -259,4 +259,10 @@
 }
 .line_height_10xl{
     line-height: var(--line-height-10xl);
+}
+@media (min-width:576px) {
+    :root{
+    --font-size-12xl: 94px;
+        
+    }
 }
