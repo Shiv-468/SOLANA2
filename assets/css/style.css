@@ -17,9 +17,7 @@
     font-family: 'Helvetica';
     src: url('../fonts/Helvetica.ttf');
 }
-.cursor_pointer{
-    cursor: pointer;
-}
+
 .font_family_Helvetica {
     font-family: Helvetica;
 }
@@ -28,8 +26,8 @@
     letter-spacing: 1.5px;
 }
 
-.max_width_1085px {
-    max-width: 1085px;
+.max_width_1108px {
+    max-width: 1108px;
 }
 
 .deeper_Section_background {
@@ -55,27 +53,32 @@
     opacity: 1 !important;
 }
 
+.padding_top_30 {
+    padding-top: 30px;
+}
 
 
-
-.padding_bottom_32px{
+.padding_bottom_32px {
     padding-bottom: 32px;
 }
 
 .padding_top_14px {
     padding-top: 14px;
 }
-.padding_top_35px{
+
+.padding_top_35px {
     padding-top: 35px;
 }
-.text_width_260px{
+
+.text_width_260px {
     max-width: 260px;
 }
 
 .text_width_265px {
     max-width: 265px;
 }
-.text_width_132px{
+
+.text_width_132px {
     max-width: 132px;
 }
 
@@ -335,9 +338,9 @@
         padding-bottom: 192px !important;
     }
 
-        .section3_card {
-            padding-top: 75px;
-            padding-bottom: 76px;
-            padding-left: 88px;
-        }
+    .section3_card {
+        padding-top: 75px;
+        padding-bottom: 76px;
+        padding-left: 88px;
+    }
 }
