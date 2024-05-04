@@ -37,9 +37,10 @@
     --bg-xtra-lightBlack: #261F264D;
     --footer-background: #000508;
     --footer-border: #141414;
+    --light-brown:#19161C;
 
     --text-violet: #A962FF;
-    --text-violet2:#9945FF;
+    --text-violet2: #9945FF;
     --text-fade-pink: #F087FF;
     --text-gray: #BABABA;
     --text-green: #19FB9B;
@@ -48,6 +49,8 @@
 
     --text-gray2: #848895;
     --bg-lightblack: #111111;
+    --bg-black:#0A0A0A;
+    --green:#14F195;
 
     /* linear-gradient */
     --header-gradient: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
@@ -62,6 +65,7 @@
 .text_violet2{
     color: var(--text-violet2);
 }
+
 .text_blue {
     color: var(--blue);
 }
@@ -244,6 +248,7 @@
 .line_height_8xl {
     line-height: var(--line-height-8xl);
 }
-.line_height_9xl{
+
+.line_height_9xl {
     line-height: var(--line-height-9xl);
 }
