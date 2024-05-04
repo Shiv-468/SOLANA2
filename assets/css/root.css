@@ -1,36 +1,36 @@
 :root {
     /* font-size */
-    --font-size-xxsm: 12px;
-    --font-size-xsm: 15px;
-    --font-size-sm: 16px;
-    --font-size-md: 17px;
-    --font-size-lg: 18px;
-    --font-size-xl: 20px;
-    --font-size-2xl: 21px;
-    --font-size-3xl: 25px;
-    --font-size-4xl: 26px;
-    --font-size-5xl: 28px;
-    --font-size-6xl: 37px;
-    --font-size-7xl: 38px;
-    --font-size-8xl: 39px;
-    --font-size-9xl: 42px;
-    --font-size-10xl: 68px;
-    --font-size-11xl: 70px;
-    --font-size-12xl: 110px;
-
+    --font-size-xxsm: 11px;
+    --font-size-xsm: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 15px;
+    --font-size-lg: 16px;
+    --font-size-xl: 17px;
+    --font-size-2xl:18px;
+    --font-size-3xl:19px;
+    --font-size-4xl: 20px;
+    --font-size-5xl: 21px;
+    --font-size-6xl:32px;
+    --font-size-7xl: 35px;
+    --font-size-8xl: 36px;
+    --font-size-9xl: 37px;
+    --font-size-10xl:38px;
+    --font-size-11xl: 39px;
+    --font-size-12xl: 94px;
     /* line-height*/
-    --line-height-sm: 15.36px;
-    --line-height-md: 16px;
-    --line-height-lg: 16.8px;
-    --line-height-xl: 18.72px;
-    --line-height-2xl: 20px;
-    --line-height-3xl:26px;
-    --line-height-4xl: 27.3px;
-    --line-height-5xl: 28px;
-    --line-height-6xl: 33.04px;
-    --line-height-7xl: 46.2px;
-    --line-height-8xl: 75.6px;
-    --line-height-9xl: 11px;
+    --line-height-sm: 18px;
+    --line-height-md: 18.72px;
+    --line-height-lg: 19.2px;
+    --line-height-xl: 20px;
+    --line-height-2xl: 24.34px;
+    --line-height-3xl:25.2px;
+    --line-height-4xl: 26px;
+    --line-height-5xl: 27.3px;
+    --line-height-6xl: 33.6px;
+    --line-height-7xl: 37.8px;
+    --line-height-8xl: 40px;
+    --line-height-9xl: 42px;
+    --line-height-10xl:96px;
     /* background-colors */
     --bg-lightblack: #111111;
     --bg-light-black2: #1A1A1A;
@@ -40,7 +40,7 @@
     --light-brown:#19161C;
 
     --text-violet: #A962FF;
-    --text-violet2: #9945FF;
+    --text-violet2:#9945FF;
     --text-fade-pink: #F087FF;
     --text-gray: #BABABA;
     --text-green: #19FB9B;
@@ -62,10 +62,16 @@
     --blue: #618ADC;
     --gray: #C4C4C4;
 }
+
+.bg_black{
+    background: var(--bg-black);
+}
+.light_brown{
+    background: var(--light-brown);
+}
 .text_violet2{
     color: var(--text-violet2);
 }
-
 .text_blue {
     color: var(--blue);
 }
@@ -248,7 +254,9 @@
 .line_height_8xl {
     line-height: var(--line-height-8xl);
 }
-
-.line_height_9xl {
+.line_height_9xl{
     line-height: var(--line-height-9xl);
+}
+.line_height_10xl{
+    line-height: var(--line-height-10xl);
 }
