@@ -15,7 +15,7 @@
     --font-size-8xl: 36px;
     --font-size-9xl: 37px;
     --font-size-10xl:38px;
-    --font-size-11xl: 39px;
+    --font-size-11xl: 35px;
     --font-size-12xl: 55px;
     /* line-height*/
     --line-height-sm: 18px;
@@ -29,7 +29,7 @@
     --line-height-6xl: 33.6px;
     --line-height-7xl: 37.8px;
     --line-height-8xl: 40px;
-    --line-height-9xl: 42px;
+    --line-height-9xl: 32px;
     --line-height-10xl:56px;
     /* background-colors */
     --bg-lightblack: #111111;
@@ -263,6 +263,9 @@
 @media (min-width:576px) {
     :root{
     --font-size-12xl: 94px;
-        
+        --line-height-10xl:96px;
+    --font-size-11xl: 39px;
+    --line-height-9xl: 42px;
+
     }
 }
